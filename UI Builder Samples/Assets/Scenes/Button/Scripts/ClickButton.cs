@@ -22,7 +22,6 @@ public class ClickButton : MonoBehaviour
 
     }
 
-
     // STEP 5 -> Create a method to do some functionality.
     void OnButtonClicked()
     {

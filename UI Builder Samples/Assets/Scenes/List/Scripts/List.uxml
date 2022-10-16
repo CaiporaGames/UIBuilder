@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:ListView focusable="true" name="List" header-title="My List" show-border="false" selection-type="Single" horizontal-scrolling="false" fixed-item-height="100" style="height: 374px; flex-grow: 0.5; font-size: 100px; -unity-text-align: middle-center; justify-content: space-around; -unity-font-style: bold; letter-spacing: 0; -unity-paragraph-spacing: 0; text-shadow: 3px 0 0 rgba(190, 190, 190, 255); align-items: center;" />
+    </ui:VisualElement>
+</ui:UXML>
