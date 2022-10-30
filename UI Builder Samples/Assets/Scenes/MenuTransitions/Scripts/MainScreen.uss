@@ -1,0 +1,120 @@
+VisualElement{}
+:root {
+    --color-1: rgba(0, 0, 0, 0.75);
+    --color-2: rgb(108, 160, 195);
+    --font-size-h1: 35px;
+    --font-size-h2: 30px;
+    --font-size-h3: 25px;
+    --background-img: url('/Assets/Scenes/MenuTransitions/Scripts/Background.jpg');
+    --unity-font-definition: none;
+    color: var(--color-2);
+}
+
+#container {
+    flex-grow: 1;
+    background-image: var(--background-img);
+    flex-direction: row;
+}
+
+#menu {
+    width: 28%;
+    flex-direction: row;
+    transition-property: opacity;
+    transition-duration: 0.75s;
+    transition-timing-function: ease-out-back;
+}
+
+#menu > VisualElement {
+    background-color: var(--color-1);
+}
+
+#navigation {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: var(--font-size-h2);
+    --unity-text-align: upper-center;
+}
+
+#decorativeBar {
+    width: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#option {
+    transition-duration: 0.25s;
+    transition-timing-function: ease-out-back;
+}
+
+#option:hover {
+    color: white;
+    font-size: var(--font-size-h1);
+}
+
+
+#content {
+    align-items: stretch;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#content #header {
+    width: 100%;
+    font-size: var(--font-size-h2);
+    --unity-font-style: bold;
+    color: rgba(255, 255, 255, 255);
+    --unity-text-align: upper-right;
+}
+
+#body {
+    flex-grow: 1;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-end;
+}
+
+#widgetContainer {
+    width: 300px;
+    height: 200px;
+    border-color: rgb(0, 0, 0);
+    margin: 20px;
+    translate: 0 254px;
+    transition-duration: 0.75s;
+    transition-delay: 0.75s;
+    transition-timing-function: ease-out-back;
+}
+
+#image {
+    border-width: 2px;
+    height: 90%;
+    border-color: var(--color-1);
+    background-color: rgba(66, 66, 66, 255);
+}
+
+#navContainer {
+    height: 10%;
+    flex-direction: row;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#selector {
+    border-width: 2px;
+    border-color: var(--color-1);
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.selector-filled {
+    background-color: var(--color-1);
+}
+
+.pop-animation-hide {
+    opacity: 0;
+}

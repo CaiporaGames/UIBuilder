@@ -1,0 +1,38 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Scenes/MenuTransitions/Scripts/MainScreen.uss?fileID=7433441132597879392&amp;guid=bc5f9f58e4fac564aa41367f213b7085&amp;type=3#MainScreen" />
+    <ui:VisualElement name="container">
+        <ui:VisualElement name="menu" class="pop-animation-hide">
+            <ui:VisualElement name="navigation">
+                <ui:VisualElement name="mainNav">
+                    <ui:Label text="CONTINUE" display-tooltip-when-elided="true" name="option" class="pop-animation-hide" />
+                    <ui:Label text="NEW GAME" display-tooltip-when-elided="true" name="option" class="pop-animation-hide" />
+                    <ui:Label text="MULTPLAYER" display-tooltip-when-elided="true" name="option" class="pop-animation-hide" />
+                    <ui:Label text="SETTINGS" display-tooltip-when-elided="true" name="option" class="pop-animation-hide" />
+                    <ui:Label text="QUIT" display-tooltip-when-elided="true" name="option" class="pop-animation-hide" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="decorativeBar" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content">
+            <ui:Label text="GAME LOGO HERE" display-tooltip-when-elided="true" name="header" />
+            <ui:VisualElement name="body">
+                <ui:VisualElement name="widgetContainer">
+                    <ui:VisualElement name="image" />
+                    <ui:VisualElement name="navContainer">
+                        <ui:VisualElement name="selector" />
+                        <ui:VisualElement name="selector" />
+                        <ui:VisualElement name="selector" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="widgetContainer">
+                    <ui:VisualElement name="image" />
+                    <ui:VisualElement name="navContainer">
+                        <ui:VisualElement name="selector" />
+                        <ui:VisualElement name="selector" />
+                        <ui:VisualElement name="selector" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
