@@ -1,0 +1,16 @@
+.headerMain {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 255);
+}
+
+.btnMain {
+    flex-direction: row;
+    flex-grow: 1;
+    height: 52px;
+    font-size: 24px;
+    background-color: rgb(226, 137, 45);
+    border-left-color: rgb(226, 137, 45);
+    border-right-color: rgb(226, 137, 45);
+    border-top-color: rgb(226, 137, 45);
+    border-bottom-color: rgb(226, 137, 45);
+}
