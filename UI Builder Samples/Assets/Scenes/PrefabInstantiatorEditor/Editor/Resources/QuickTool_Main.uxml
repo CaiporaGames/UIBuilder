@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xsi:noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd">
+  Creates our template and gives it a name for future reference.
+  <Template path="Assets/Editor/Resources/ButtonTemplate.uxml" name="button-template" />
+   Creates a parent VisualElement inside which we will use our button template. 
+  <VisualElement class="buttons-container">
+     Instantiates the template multiple times. Each time, we give it a name for future reference. 
+    <Instance template="button-template" name="Cube"/>
+    <Instance template="button-template" name="Sphere"/>
+    <Instance template="button-template" name="Capsule"/>
+    <Instance template="button-template" name="Cylinder"/>
+    <Instance template="button-template" name="Plane"/>
+  </VisualElement>
+</engine:UXML> -->
+
+<UXML xmlns="UnityEngine.UIElements">
+  <!-- Creates our template and gives it a name for future reference. -->
+  <Template path="Assets/Scenes/PrefabInstantiatorEditor/Editor/Resources/ButtonTemplate.uxml" name="button-template" />
+  <!-- Creates a parent VisualElement inside which we will use our button template. -->
+  <VisualElement class="buttons-container">
+    <!-- Instantiates the template multiple times. Each time, we give it a name for future reference. -->
+    <Instance template="button-template" name="Cube"/>
+    <Instance template="button-template" name="Sphere"/>
+    <Instance template="button-template" name="Capsule"/>
+    <Instance template="button-template" name="Cylinder"/>
+    <Instance template="button-template" name="Plane"/>
+  </VisualElement>
+</UXML>
