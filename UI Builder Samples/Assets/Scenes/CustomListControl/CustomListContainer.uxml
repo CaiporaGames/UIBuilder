@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/CustomListStylesheet.uss?fileID=7433441132597879392&amp;guid=6a2ee70e60342b743a4701dc572d9430&amp;type=3#CustomListStylesheet" />
+    <ListWindow class="listWindow" />
+</ui:UXML>
